@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(0, 0%, 97%);
+}
+#currentDate{
+    font-size: 2rem;
+}
+#clockTime{
+    font-size: 8rem;
+    font-family: Arial;
+    text-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.417);
+}
+#convertBtn{
+    font-size: 1.5rem;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.326);
+    background-color: white;
+    cursor: pointer;
+}
